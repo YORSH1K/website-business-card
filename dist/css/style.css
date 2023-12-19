@@ -107,12 +107,6 @@ body {
   min-width: 0;
 }
 
-/*
-(i) Стилі будуть застосовуватись до
-всіх класів, що містять *__container
-Наприклад header__container, main__container і т.п.
-Сніппет (HTML): cnt
-*/
 
 [class*=__container] {
   max-width: 75rem;
